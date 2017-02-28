@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-B';
+  src: url('../fonts/opensansbold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-I';
+  src: url('../fonts/opensansitalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-L';
+  src: url('../fonts/opensanslight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-LI';
+  src: url('../fonts/opensanslightitalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-SB';
+  src: url('../fonts/opensanssemibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans-SBI';
+  src: url('../fonts/opensanssemibolditalic.ttf') format('truetype');
+}
+body {
+	font-family: "Open Sans", "Tahoma", "Arial", sans-serif;
+}
+a{
+	color: #318720;
+}
+.pageheader {
+    padding: 2rem 15px;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-align: center;
+    background-color: #256f16;
+}
+@media (min-width: 576px) {
+.pageheader {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+}
+.pageheader .container {
+    position: relative;
+}
+.pageheader img{
+width: 250px;
+}
+.pageheader h1{
+	font-size: 2rem;
+    margin-top: 1.5em;
+}
+.sidebar p {
+	font-size: 1.5rem;
+	font-family: "Open Sans-SB" "Tahoma", "Arial", sans-serif;
+}
+.sidebar li a{
+	color: #318720;
+}
+.content h1 {
+	font-family: "Open Sans-SB" !important;
+	font-size: 2rem;
+	color: #b2270c;
+}
+.content h2{
+	font-family: "Open Sans-SB" !important;
+	font-size: 1.5rem;
+}
+.content p {
+	margin-top: 1.5em;
+}
+.link{
+	text-align: center;
+}
+.link a{
+color: #318720;
+font-family: "Open Sans-SBI";
+font-size: 1.2rem;
+
+}
