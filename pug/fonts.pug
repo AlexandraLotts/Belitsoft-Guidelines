@@ -1,61 +1,77 @@
 extends template
 block content
 	h1 Шрифтовая схема
-		h2.mt-3 Основной текст
-		p Для основного текста на сайте используется шрифт Open Sans Regular - 16px, цвет - черный, межстрочный интервал - 24px.
-		p.open-sans-r Open Sans Regular
-			br
-			span ABCDEFGHIJKLMNOPQRSTUVWXYZ
-			br
-			span abcdefghijklmnopqrstuvwxyz
-			br
-			span 1234567890!@£$%^&*()_+
-		h2.mt-3 Заголовки
-		p 1) Главный заголовок первого уровня:
-			code.highlighter-rouge .slider-section__title 
-			br
-			| - полужирный красный шрифт, все буквы в верхнем регистре. 
-			br
-			| Размер шрифта на широких экранах - 30px, на экранах меньше 768px - 20px.
-			
-		p.open-sans-sbu Open Sans SemiBold
-			br
-			span ABCDEFGHIJKLMNOPQRSTUVWXYZ
-			br
-			span 1234567890!@£$%^&*()_+
-		p.mt-3 2) Подзаголовок-описание - черный курсив, используется для более подробного описания как самого главного блока, так и других блоков на сайте. 
-			br
-			| Размер шрифта  - 16px.
-			
-		p.open-sans-i Open Sans Italic
-			br
-			span ABCDEFGHIJKLMNOPQRSTUVWXYZ
-			br
-			span abcdefghijklmnopqrstuvwxyz
-			br
-			span 1234567890!@£$%^&*()_+
-		p.mt-3 3) Заголовок второго уровня - черный полужирный, используется для заголовков блоков на сайте. 
-			br
-			| Размер шрифта  - 20px.
-			
-		p.open-sans-sb Open Sans SemiBold
-			br
-			span ABCDEFGHIJKLMNOPQRSTUVWXYZ
-			br
-			span abcdefghijklmnopqrstuvwxyz
-			br
-			span 1234567890!@£$%^&*()_+
-		img.text-center.img-fluid(alt='fonts', src='../img/fonts-1.png')
+	h2.mt-3 Основной текст
+	p Для основного текста на сайте используется шрифт Open Sans Regular - 16px, цвет - черный, межстрочный интервал - 24px.
+	p.open-sans-r Open Sans Regular
+		br
+		span ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		br
+		span abcdefghijklmnopqrstuvwxyz
+		br
+		span 1234567890!@£$%^&*()_+
+	h2.mt-3 Заголовки
+	p 1) Главный заголовок первого уровня:
+		code.highlighter-rouge .slider-section__title 
+		| - полужирный красный шрифт, все буквы в верхнем регистре. 
+		br
+		| Размер шрифта на широких экранах - 30px, на экранах меньше 768px - 20px.
+		
+	p.open-sans-sbu Open Sans SemiBold
+		br
+		span ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		br
+		span 1234567890!@£$%^&*()_+
+	p.mt-3 2) Подзаголовок-описание
+		code.highlighter-rouge .main-section__subtitle
+		| - черный курсив, используется для более подробного описания как самого главного блока, так и других блоков на сайте. 
+		br
+		| Размер шрифта  - 16px.
+		
+	p.open-sans-i Open Sans Italic
+		br
+		span ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		br
+		span abcdefghijklmnopqrstuvwxyz
+		br
+		span 1234567890!@£$%^&*()_+
+	p.mt-3 3) Заголовок второго уровня - черный полужирный, используется для заголовков блоков на сайте. 
+		br
+		| Размер шрифта  - 20px.
+		
+	p.open-sans-sb Open Sans SemiBold
+		br
+		span ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		br
+		span abcdefghijklmnopqrstuvwxyz
+		br
+		span 1234567890!@£$%^&*()_+
+	img.text-center.img-fluid(alt='fonts', src='../img/fonts-1.png')
 
-		p.mt-5 4) Заголовок первого уровня для остальных блоков - черный полужирный, все буквы в верхнем регистре. 
-			br
-			| Размер шрифта на широких экранах - 30px, на экранах меньше 768px - 20px.
+	p.mt-5 4) Заголовок первого уровня для остальных блоков
+		code.highlighter-rouge .main-section__title 
+		| - черный полужирный, все буквы в верхнем регистре. 
+		br
+		| Размер шрифта на широких экранах - 30px, на экранах меньше 768px - 20px.
 
-		p.open-sans-s Open Sans SemiBold
-			br
-			span ABCDEFGHIJKLMNOPQRSTUVWXYZ
-			br
-			span abcdefghijklmnopqrstuvwxyz
-			br
-			span 1234567890!@£$%^&*()_+
-		img.text-center.img-fluid(alt='fonts', src='../img/fonts-2.png')
+	p.open-sans-s Open Sans SemiBold
+		br
+		span ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		br
+		span 1234567890!@£$%^&*()_+
+	img.text-center.img-fluid(alt='fonts', src='../img/fonts-2.png')
+	h2.mt-3 Ссылки
+	p Для ссылок используется шрифт Open Sans Regular - 16px, цвет - зеленый
+		code.highlighter-rouge color: #318720;
+		br
+		| Ссылки подчеркиваются при любом состоянии. При наведении цвет - красный
+		code.highlighter-rouge color: #c32011;
+		br
+		| В ссылках допускается использовать курсив, а также стрелки-указатели, акцентирующие внимание на переход во внутренние страницы.
+	img.text-center.img-fluid(alt='links', src='../img/links-1.png')
+
+	p.link
+		a.pr-5(href='pages.html') < Компоновка страниц
+		a(href='colors.html') Цветовая схема >
+
+

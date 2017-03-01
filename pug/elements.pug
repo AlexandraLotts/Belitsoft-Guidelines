@@ -1,0 +1,157 @@
+extends template
+block content
+	h1 Элементы интерфейса
+	h2.mt-4 Кнопки
+	.our-services__btn-wr
+		a.btn.btn-primary(href='') Quick inquiry
+								
+	pre.mt-3
+		code
+			| &lt;div class="our-services__btn-wr"&gt;
+			| &nbsp; &lt;a href="" class="btn btn-primary"&gt;Button text&lt;/a&gt;
+			| &lt;/div&gt;
+	h2.mt-4 Списки
+	p Для списков на сайте допустимо использовать 2 варианта оформления: 
+	p Зеленые иконки-чекбоксы:
+	img.text-center.img-fluid(alt='lists', src='../img/lists-1.png')
+	pre.mt-3
+		code
+			| &lt;div class="main-section__body"&gt;
+			| &nbsp; &lt;div class="our-advantages__content-wr"&gt;
+			| &nbsp;&nbsp; &lt;div class="our-advantages__list"&gt;
+			| &nbsp;&nbsp;&nbsp; &lt;div class="our-advantages__list-item"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="our-advantages__item-content-wr"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h2 class="our-advantages__item-title"&gt; Title &lt;/h2&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="our-advantages__item-description"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt; Description &lt;/p&gt;
+
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp; &lt;/div&gt;
+			| &nbsp;&nbsp; &lt;/div&gt;
+			| &nbsp; &lt;/div&gt;
+			| &lt;/div&gt;
+	p Красные кружки (глифы):
+	img.text-center.img-fluid(alt='lists', src='../img/lists-2.png')
+	pre.mt-3
+		code
+			| &lt;ul class="info-list"&gt;
+			| &nbsp;&lt;li&gt;Текст&lt;/li&gt;
+			| &nbsp;&lt;li&gt;Текст&lt;/li&gt;
+			| &nbsp;&lt;li&gt;Текст&lt;/li&gt;
+			| &lt;/ul&gt;
+
+
+
+		
+	h2.pt-4.pb-3 Контактная форма
+	img.text-center.img-fluid(alt='contact-form', src='../img/contact-form.png')
+	pre.mt-3
+		code
+			| &lt;div class="main-section__body"&gt;
+			| &nbsp;&lt;div class="contacts-col"&gt;
+			| &nbsp;&nbsp;&lt;div class="contacts__min-section"&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;div class="contacts__min-section-header"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-title-sm"&gt;Call us:&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+			| &nbsp;&nbsp;&nbsp;&lt;div class="contacts__min-section-body"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__label"&gt;Phone - USA&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__value"&gt;&lt;i class="bs-icon-phone"&gt;&lt;/i&gt;+1 (917) 410-57-57&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__label"&gt;Phone - BELARUS&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__value"&gt;&lt;i class="bs-icon-phone"&gt;&lt;/i&gt;+375 (25) 694-36-77&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__label"&gt;Skype&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__value"&gt;&lt;i class="bs-icon-skype"&gt;&lt;/i&gt; &lt;a href="skype:alexandr.kom?call"&gt;alexandr.kom&lt;/a&gt;&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;/div&gt;
+			| &nbsp;&nbsp;&lt;/div&gt; 
+
+			| &nbsp;&nbsp;&lt;div class="contacts__min-section"&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;div class="contacts__min-section-header"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-title-sm"&gt;EMAIL US:&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+			| &nbsp;&nbsp;&nbsp;&lt;div class="contacts__min-section-body"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__value"&gt; &lt;i class="bs-icon-mail-open"&gt;&lt;/i&gt;&lt;a href=""&gt;Get a Project Quote&lt;/a&gt;&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row"&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="contact-row__value"&gt;&lt;i class="bs-icon-mail-open"&gt;&lt;/i&gt; &lt;a href=""&gt;Hire Dedicated Team&lt;/a&gt;&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+			| &nbsp;&nbsp;&nbsp;&lt;/div&gt;
+			| &nbsp;&nbsp;&lt;/div&gt;
+			| &nbsp;&lt;/div&gt;
+
+			| &lt;div class="contact-form-col"&gt;
+			| &lt;form class="webform-client-form webform-client-form-139 client-form__custom" enctype="multipart/form-data" action="/contact/ask-a-question.html" method="post" id="question-form" accept-charset="UTF-8"&gt;
+			| &lt;div class="contact-title-sm"&gt;Contact form&lt;/div&gt;
+			| &lt;label for="qstheme"&gt;
+			| &lt;select required="required" id="edit-submitted-topic" name="submitted[topic]" class="form-select required"&gt;
+			| &lt;option value="" selected="selected"&gt;Choose topic&lt;/option&gt;
+			| &lt;option value="1"&gt;Sales&lt;/option&gt;
+			| &lt;option value="2"&gt;Project development&lt;/option&gt;
+			| &lt;option value="3"&gt;Teams&lt;/option&gt;
+			| &lt;option value="4"&gt;Cooperation&lt;/option&gt;
+			| &lt;option value="5"&gt;Marketing&lt;/option&gt;
+			| &lt;option value="6"&gt;Advertising&lt;/option&gt;
+			| &lt;option value="7"&gt;Site optimization and promotion&lt;/option&gt;
+			| &lt;option value="8"&gt;Others&lt;/option&gt;
+
+			| &lt;select&gt;
+			| &lt;label&gt;
+			| &lt;label for="qsname"&gt;
+			| &lt;input required="required" placeholder="Your name *" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text required" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qscomp"&gt;
+			| &lt;input placeholder="Company" type="text" id="edit-submitted-company" name="submitted[company]" value="" size="60" maxlength="128" class="form-text" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qsmail"&gt;
+			| &lt;input required="required" class="email form-text form-email required" placeholder="Email *" type="email" id="edit-submitted-email" name="submitted[email]" size="60" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qspos"&gt;
+			| &lt;input placeholder="Position" type="text" id="edit-submitted-position" name="submitted[position]" value="" size="60" maxlength="128" class="form-text" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qsphone"&gt;
+			| &lt;input placeholder="Phone" type="text" id="edit-submitted-phone" name="submitted[phone]" value="" size="60" maxlength="128" class="form-text" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qscountry"&gt;
+			| &lt;input required="required" placeholder="Your Country *" type="text" id="edit-submitted-country" name="submitted[country]" value="" size="60" maxlength="128" class="form-text required" /&gt;
+			| &lt;label&gt;
+			| &lt;label for="qsmessagebox"&gt;
+			| &lt;textarea required="required" placeholder="I woud like to discuss..." id="edit-submitted-quote" name="submitted[quote]" cols="50" rows="6" class="form-textarea required"&gt;&lt;textarea&gt;
+			| &lt;label&gt;
+			| &lt;label for="qsfile"&gt;
+			| &lt;div id="edit-submitted-file-ajax-wrapper"&gt;
+			| &lt;input type="file" id="edit-submitted-file-upload" name="files[submitted_file]" size="22" class="form-file" /&gt;
+			| &lt;input type="submit" id="edit-submitted-file-upload-button" name="submitted_file_upload_button" value="Upload" class="form-submit" /&gt;
+			| &lt;input type="hidden" name="submitted[file][fid]" value="0" /&gt;
+			| &lt;/div&gt;
+			| &lt;p class="uploader__hint"&gt;Maximum file size is 20MB&lt;/p&gt;
+			| &lt;label&gt;
+
+			| &lt;input type="hidden" name="details[sid]" /&gt;
+			| &lt;input type="hidden" name="details[page_num]" value="1" /&gt;
+			| &lt;input type="hidden" name="details[page_count]" value="1" /&gt;
+			| &lt;input type="hidden" name="details[finished]" value="0" /&gt;
+			| &lt;input type="hidden" name="form_build_id" value="form-fQcyb0ujkDOWAi_fmf-ZEJYCmLf_zqmhz6CGTOzakw0" /&gt;
+			| &lt;input type="hidden" name="form_id" value="webform_client_form_139" /&gt;
+			| &lt;label for="qssubmit"&gt;
+			| &lt;button class="button form-submit" type="submit" id="edit-submit--2" name="op"&gt;Send request&lt;/button&gt;
+
+			| &lt;label&gt;
+			| &lt;/form&gt;
+			| &lt;/div&gt;
+			| &lt;/div&gt;
+
+	p.link
+			a.pr-5(href='colors.html') < Цветовая схема
+			a(href='graphic.html') Графика >

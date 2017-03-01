@@ -104,7 +104,7 @@ li ul{
 .open-sans-sb,
 .open-sans-s
 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
   margin-top: 1em !important;
 }
@@ -113,7 +113,7 @@ li ul{
 .open-sans-i span,
 .open-sans-sb span,
 .open-sans-s span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #999999;
 
 }
@@ -131,4 +131,90 @@ li ul{
 .open-sans-s {
   font-family: "Open Sans-SB";
   text-transform: uppercase;
+}
+.green-cube{
+  background-color: #256F16;
+
+}
+.red-cube{
+  background-color: #b2270c;
+
+}
+.green-cube p,
+.red-cube p,
+.black p,
+.grey p,
+.light-grey p
+
+{
+  color: #FFF;
+  margin: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.black{
+  background-color: #000;
+  color: #fff;
+
+}
+.grey{
+  background-color: #333333;
+  color: #fff;
+
+}
+.light-grey{
+  background-color: #888888;
+  color: #fff;
+
+}
+.our-services__btn-wr {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.our-services__btn-wr .btn {
+    min-width: 240px;
+}
+.btn-primary {
+    background-color: #256f16;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 14px;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #fff;
+    text-decoration: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .btn-primary:hover {
+    background-color: #318720;
+}
+pre {
+  background-color: #f7f7f9;
+  border-radius: .25rem;
+  padding: 1em;
+}
+pre code{
+  color:#bd4147;
+  font-size: 90%;
+
 }

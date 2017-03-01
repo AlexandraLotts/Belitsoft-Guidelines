@@ -1,0 +1,34 @@
+extends template
+block content
+	h1 Цветовая схема
+	h2.mt-5 Навигация, ховеры, заголовки, ссылки
+	.container.mt-3
+		.row
+			
+			.col-6.green-cube
+				p #256F16;
+				p rgb(37, 111, 22);
+				p hsb(110, 80%, 44%);
+		
+			.col-6.red-cube
+				p #b2270c;
+				p rgb(178, 39, 12);
+				p hsb(10, 93%, 70%);
+	h2.mt-5 Текст
+	.container.mt-3
+		.row
+			.col.black
+				p #000;
+				p rgb(0, 0, 0);
+				p hsb(0, 100%, 0);
+			.col.grey
+				p #333333;
+				p rgb(51, 51, 51);
+				p hsb(0, 0, 20%);
+			.col.light-grey
+				p #888888;
+				p rgb(136, 136, 136);
+				p hsb(0, 0, 53%);
+	p.link.mt-5
+		a.pr-5(href='fonts.html') < Шрифтовая схема
+		a(href='elements.html') Элементы интерфейса >
