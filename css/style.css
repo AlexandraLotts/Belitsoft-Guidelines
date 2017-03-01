@@ -32,6 +32,9 @@ body {
 a{
 	color: #318720;
 }
+li{
+  color: #b2270c;
+}
 .pageheader {
     padding: 2rem 15px;
     margin-bottom: 1.5rem;
@@ -63,6 +66,7 @@ width: 250px;
 }
 .sidebar li a{
 	color: #318720;
+  font-size: 1.1rem;
 }
 .content h1 {
 	font-family: "Open Sans-SB" !important;
@@ -84,4 +88,47 @@ color: #318720;
 font-family: "Open Sans-SBI";
 font-size: 1.2rem;
 
+}
+li ul li{
+  color: #999999;
+  font-size: .95rem;
+  list-style: none;
+}
+li ul{
+  line-height: 24px;
+  padding-left: 25px;
+}
+.open-sans-r,
+.open-sans-sbu,
+.open-sans-i,
+.open-sans-sb,
+.open-sans-s
+{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1em !important;
+}
+.open-sans-r span,
+.open-sans-sbu span,
+.open-sans-i span,
+.open-sans-sb span,
+.open-sans-s span {
+  font-size: 1.4rem;
+  color: #999999;
+
+}
+.open-sans-sbu{
+  color: #b2270c;
+  text-transform: uppercase;
+  font-family: "Open Sans-SB";
+}
+.open-sans-i{
+  font-family: "Open Sans-I";
+}
+.open-sans-sb {
+  font-family: "Open Sans-SB";
+}
+.open-sans-s {
+  font-family: "Open Sans-SB";
+  text-transform: uppercase;
 }
