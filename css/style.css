@@ -218,3 +218,114 @@ pre code{
   font-size: 90%;
 
 }
+.service-table {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    .column-one,
+    .column-two,
+    .column-three,
+    .column-four {
+        width: 25%;
+        border: solid 1px #d9dddd;
+        float: left;
+        margin-bottom: 20px; 
+    }
+    .column-one {
+        width: 23%;
+        text-align: left;
+
+    }
+    
+    .table-title {
+        display: table;
+        background-image: linear-gradient(to bottom, #477f52, #19370e), linear-gradient(#256f16, #256f16);
+        margin: 0;
+        height: 90px;
+        width: 100%;
+    }
+    
+    .table-title h1 {
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #FFF;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: 1.4;
+    }
+    
+    h1.no-uppercase {
+        text-transform: none;
+        text-align: center;
+    }
+    
+    .table-body {
+        font-size: 14px;
+        color: #888888;
+    }
+    
+    .align-left .table-item p {
+        font-family: 'Open Sans-L';
+        color: #203a1c;
+    }
+    
+    .table-item {
+        height: 110px;
+        border-bottom: solid 1px #d9dddd;
+        padding: 7px;
+    }
+    
+    .table-item a {
+        color: #114d10;
+        font-family: "Open Sans-SB";
+    }
+    
+    .table-item.high {
+        height: 170px
+    }
+    
+    .table-item.higher {
+        height: 200px
+    }
+    
+    .table-item.highest {
+        height: 350px;
+    }
+    
+    .table-item:nth-child(even) {
+        background-color: #f5f9eb;
+        mix-blend-mode: multiply;
+    }
+    
+    .optimal {
+        background-color: #f5f9eb;
+        mix-blend-mode: multiply;
+        box-shadow: 0 0 18.7px 2.3px rgba(55, 55, 55, 0.5);
+    }
+    
+    .optimal-body .table-item {
+        color: #666666;
+    }
+    
+    .optimal .table-title {
+        background-image: none;
+    }
+    
+    .optimal .table-title p {
+        display: block;
+        color: #FFF;
+        background-image: linear-gradient(to bottom, #e23434, #700f0f 100%), linear-gradient(#f5f9eb, #f5f9eb);
+        padding: 5px 0;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin: 0;
+    }
+    
+    .optimal .table-title h1 {
+        display: block;
+        color: #203a1c;
+        margin-top: 8px;
+    }
